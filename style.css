@@ -1,0 +1,90 @@
+img {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+}
+.but {
+  border: none;
+  border-radius: 20px;
+  background-color: orange;
+  font-size: 28px;
+  height: 50px;
+  width: 140px;
+  margin-top: 40px;
+  margin-left: 170px;
+}
+.btn {
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  height: 20px;
+  width: 80px;
+  color: white;
+  font-weight: bolder;
+  box-shadow: 5px 5px 5px red;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+#btn0 {
+  margin-top: 90px;
+  position: absolute;
+}
+#btn1 {
+  margin-top: 140px;
+  position: absolute;
+}
+#btn2 {
+  margin-top: 190px;
+  position: absolute;
+}
+.container {
+  box-shadow: 0px 0px 10px black;
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+.containers {
+  height: 600px;
+  width: 450px;
+  margin-left: 5px;
+  box-shadow: 5px 5px 5px pink;
+  background-image: linear-gradient(to bottom right, red, pink);
+}
+.score {
+  font-size: 48px;
+  font-weight: bolder;
+
+  margin-left: 240px;
+  color: black;
+}
+.current-score {
+  margin-left: 200px;
+  background-color: white;
+  box-shadow: 5px 5px 5px red;
+  width: 100px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 10px;
+}
+h1 {
+  margin-left: 215px;
+}
+.hidden {
+  display: none;
+}
+.active-player {
+  background-image: linear-gradient(to bottom right, pink, white);
+}
+.dice {
+  box-shadow: 0px 0px 10px black;
+}
+.winner {
+  background-image: linear-gradient(to bottom right, black, white);
+}
